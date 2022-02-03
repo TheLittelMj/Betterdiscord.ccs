@@ -1,0 +1,156 @@
+/*Naruto designs
+https://i.pinimg.com/originals/5a/cf/51/5acf515d3b18801f5d7b807ed9279d4f.gif
+https://i.imgur.com/rKJF6tC.gif
+https://64.media.tumblr.com/09f043fdb6c983ef6c5a74bd7819a6c7/tumblr_p6srofUI0x1rqe0rbo1_540.gif
+https://64.media.tumblr.com/d36bb61bc62116b96564cc9696fe38c0/tumblr_p6srofUI0x1rqe0rbo2_540.gif
+https://media2.giphy.com/media/Te4NwB59ZFn68/giphy.gif?cid=ecf05e47eo3237gg1s4spym8z5yog3vosjo6js97l4l75use&rid=giphy.gif&ct=gif
+https://media4.giphy.com/media/tJqyalvo9ahykfykAj/giphy.gif?cid=ecf05e47fwejlowy148yki8qauskhfoginie0zn36gip7d9k&rid=giphy.gif&ct=gif
+https://c.tenor.com/RP4K5_pruU8AAAAC/itachi-vs-naruto.gif
+*/
+
+/*Ziele: 
+die ecken rund machen 
+den hintergrund dunkler machen damit man lesen kann 
+*/
+
+#app-mount{border-radius: 0px;}
+
+.theme-dark {
+--header-primary: rgb(0, 253, 232);
+--chat-color: rgba(0, 0, 0, 0.295);
+--header-secondary: rgb(245, 19, 19);;
+--text-normal: rgb(0, 204, 255);
+--text-default: rgb(0, 247, 255);
+--text-muted: rgb(116, 0, 248);
+--text-link: #00b0f4;
+--channels-default: rgb(0, 247, 255);
+--interactive-normal: rgb(0, 183, 255);
+--interactive-hover: rgb(251, 255, 0);
+--interactive-active: rgb(60, 255, 0);
+--interactive-muted: rgb(6, 184, 255);
+--background-image: url('https://64.media.tumblr.com/d36bb61bc62116b96564cc9696fe38c0/tumblr_p6srofUI0x1rqe0rbo2_540.gif');
+--background-image-blur: 0px;
+--background-image-size: cover;
+--background-image-position: center;
+--background-primary: rgba(0, 0, 0, 0.171);
+--background-secondary: rgba(0, 0, 0, 0.301);
+--background-secondary-alt: rgba(14, 14, 14, 0.158);
+--background-tertiary:rgba(0, 0, 0, 0.123);
+--background-accent: rgba(0, 0, 0, 0.247);
+/*das ist die zeile um die popups hintergrund zu reduzieren*/
+--background-floating: rgb(0, 0, 0);
+--background-mobile-primary: rgb(0, 132, 255);
+--background-mobile-secondary: rgba(158, 42, 42, 0.63);
+--background-modifier-hover: rgba(255, 230, 230, 0);
+--background-modifier-active: transparent;
+--background-modifier-selected: transparent;
+--background-modifier-accent: rgba(255, 255, 255, 0.055);
+--background-mentioned: transparent;
+--background-mentioned-hover: transparent;
+--background-message-hover: rgba(0, 0, 0, 0.575);
+--scrollbar-auto-thumb: #1100f8;
+--status-warning-text: #f00;
+--scrollbar-thin-thumb: #0029fa;
+--scrollbar-thin-track: #01ff8d00;
+--channeltextarea-background: #050505;
+--activity-card-background: #2f68bd;
+--background-tertiary: rgba(0, 0, 0, 0.171);
+}
+
+.bannerPremium-2hSAwz .premiumIconWrapper-1A-UH5 {
+  display: none;
+}
+
+:root { --sidebar-initial-width: 240px; }
+.sidebar-2K8pFh {
+    resize: horizontal;
+    width: var(--sidebar-initial-width);
+}
+.sidebar-2K8pFh .channel-2QD9_O { max-width: unset; }
+.bannerImage-3KhIJ6 { width: 100%; }
+
+.sidebar-2K8pFh .channel-2QD9_O { max-width: unset; }
+.bannerImage-3KhIJ6 { width: 100%; 
+}
+
+.assetWrapper-3GNt0z {
+    max-width: 48px;
+    max-height: 48px
+}
+
+span.roleColor-rz2vM0::after {
+    content: "";
+    background: currentColor;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.11;
+    left: 0;
+    top: 0;
+}
+
+.animatedContainer-1NSq4T, .content-3YMskv [style="height: 84px;"], .bannerImage-3KhIJ6{
+    display: none;
+}
+.hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover{
+    color: var(--header-primary);
+    box-shadow: var(--elevation-low)
+}
+.iconTierOne-s_oiRb, .iconTierTwo-1JOWNK {
+    color: var(--text-muted);
+}
+
+#private-channels [href="/discovery"] {display: none}
+
+#private-channels [href="/library"] {display: none}
+
+#private-channels [href="/store"] {display: none}
+
+#app-mount:before {
+  content: "";
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+  position: absolute;
+  height: calc(100vh + var(--background-image-blur) * 2);
+  width: calc(100vw + var(--background-image-blur) * 2);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper-1_HaEi guilds-2JjMmN::after {
+  --brightness:0.9px;
+}
+
+.platform-win .wordmarkWindows-2dq6rw {
+  display: none;
+}
+
+.theme-dark .container-2cd8Mz {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.homeIcon-r0w4ny{
+display: none;
+}
+
+.childWrapper-1j_1ub{
+background-image: url('https://i.imgur.com/rKJF6tC.gif');
+background-repeat: no-repeat ;
+background-size: contain;
+background-position: center;
+border-radius: 2em;
+}
+
+.theme-dark .container-2cd8Mz {
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.popout-1KHNAq {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid var(--background-tertiary);
+    background: rgba(0, 0, 0);
+    border-radius: 0 0 4px 4px;
+}
+
