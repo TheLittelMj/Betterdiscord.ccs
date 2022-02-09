@@ -61,11 +61,14 @@ den hintergrund dunkler machen damit man lesen kann
   display: none;
 }
 
-:root { --sidebar-initial-width: 240px; }
+:root { 
+--font: 'Whitney';
+--sidebar-initial-width: 240px; }
 .sidebar-2K8pFh {
     resize: horizontal;
     width: var(--sidebar-initial-width);
 }
+
 .sidebar-2K8pFh .channel-2QD9_O { max-width: unset; }
 .bannerImage-3KhIJ6 { width: 100%; }
 
@@ -92,10 +95,12 @@ span.roleColor-rz2vM0::after {
 .animatedContainer-1NSq4T, .content-3YMskv [style="height: 84px;"], .bannerImage-3KhIJ6{
     display: none;
 }
+
 .hasBanner-2SrLR3 .header-2V-4Sw, .hasBanner-2SrLR3 .header-2V-4Sw:hover{
     color: var(--header-primary);
     box-shadow: var(--elevation-low)
 }
+
 .iconTierOne-s_oiRb, .iconTierTwo-1JOWNK {
     color: var(--text-muted);
 }
@@ -146,6 +151,7 @@ border-radius: 2em;
 .theme-dark .container-2cd8Mz {
     background-color: rgba(0, 0, 0, 0.651);
 }
+
 .popout-1KHNAq {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -154,3 +160,9 @@ border-radius: 2em;
     border-radius: 0 0 4px 4px;
 }
 
+.layers-OrUESM{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
