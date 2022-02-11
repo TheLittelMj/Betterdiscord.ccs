@@ -13,6 +13,7 @@ die ecken rund machen
 den hintergrund dunkler machen damit man lesen kann 
 */
 
+/*hier importierst du google schriftarten*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
@@ -169,6 +170,7 @@ border-radius: 2em;
     margin-bottom: 20px;
 }
 
+/*hier ist funktion das den ganzen Body(die bestimmte funktion) alles auf die gewollte schriftart setzt)*/
 body {
     font-family: 'Indie Flower';
 }
