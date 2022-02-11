@@ -13,6 +13,9 @@ die ecken rund machen
 den hintergrund dunkler machen damit man lesen kann 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 #app-mount{border-radius: 0px;}
 
 .theme-dark {
@@ -164,5 +167,8 @@ border-radius: 2em;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    
+}
+
+body {
+    font-family: 'Indie Flower';
 }
