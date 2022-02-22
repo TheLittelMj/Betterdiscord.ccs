@@ -67,6 +67,7 @@ den hintergrund dunkler machen damit man lesen kann
 :root { 
 --font: 'Whitney';
 --sidebar-initial-width: 240px; }
+
 .sidebar-2K8pFh {
     resize: horizontal;
     width: var(--sidebar-initial-width);
@@ -169,6 +170,10 @@ border-radius: 2em;
     margin-bottom: 20px;
 }
 
-body {
-    font-family: 'Caveat';
+.body {
+    font-family: ZCOOL KuaiLe;
+}
+
+.app-3xd6d0{
+    font-family: ZCOOL KuaiLe;
 }
